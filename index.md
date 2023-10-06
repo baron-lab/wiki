@@ -3,33 +3,50 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Welcome to the Baron Lab Wiki! 
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Use the navigation bar to find information, or search for topics.
 
-More specifically, the created site:
+To contribute, use the below instructions.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## Adding pages or editing
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+- Small changes can be made directly editing files in gitlab. Otherwise:
+    1. Clone https://github.com/baron-lab/wiki
+    1. Make a new branch
+    1. Make your changes 
+        - Add new pages to the docs directory
+        - New pages should have extension .md
+        - New pages need following lines at top:
+            ```
+            ---
+            title: REPLACEWITHPAGETITLE
+            layout: default
+            ---
+            ```
+    1. Push your branch to github
+    1. Merge if you have permissions for that, or make a merge request 
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- Alternatively, send updated .md file to C. Baron (not recommended for frequent contributors)
 
-To get started with creating a site, simply:
+- Pages will automatically get added to the sidebar on the wiki website
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+- After committing to main, the website will be automatically updated (can take up to 10 min)
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- Use Markdown for formatting. See https://www.markdownguide.org/cheat-sheet/
 
-----
+## Building and previewing your site locally
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+Not required, but nice for seeing a preview before pushing to github. Assuming [Jekyll] and [Bundler] are installed on your computer:
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+1.  Change your working directory to the root directory of your site.
+1.  Run `bundle install`.
+1.  Run `bundle exec jekyll serve` to build your site and preview it at `localhost:4000`.
+
+    The built site is stored in the directory `_site`.
+
+## Licensing and Attribution
+
+This repository is licensed under the [MIT License].
+This repository was generated using a template from https://github.com/just-the-docs/just-the-docs
+
