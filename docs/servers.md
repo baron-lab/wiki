@@ -2,6 +2,8 @@
 layout: default
 title: Servers
 ---
+# Servers
+
 We use shared servers for most data analysis. 
 
 Save all data you do not want to lose to Baron Lab datashare, which is mounted on all below systems. The below descriptions give the mount location for each. Each trainee should have their own folder in the datashare.
