@@ -19,7 +19,7 @@ Thursdays at 12:00pm. In person in 2nd floor Director's Conference Room.
 - cancellations will be communicated through slack 
 
 # Website 
-https://www.baronlab.ca/
+[https://www.baronlab.ca/](https://www.baronlab.ca/)
 
 # Slack
 Ask C. Baron to be added to Superlab slack if not yet a member
@@ -31,13 +31,11 @@ We do most data analysis by remotely logging into servers (see Servers page). Al
 
 # Reimbursements 
 
-Travel Reimbursement - see UWO policies.           
-
- https://www.uwo.ca/finance/accounting/travel_expense_reimbursement.html  NOTE: If you pay for an ISMRM trainee membership, you can claim your membership on years you use it to register for ISMRM at a discounted rate. (i.e., if you don't attend the conference, you'll need to pay for your membership out of pocket if you want it). It is advised that you make this claim during or after you have paid your fees for the respective year's conference registration.  
+Khan lab has a great wiki page for this (replace references to Dr. Khan with Dr. Baron!): [https://www.khanlab.ca/wiki/expense-claims](https://www.khanlab.ca/wiki/expense-claims) 
 
 # Projects for MRI Bookings 
 
-See https://dicom.cfmm.uwo.ca/dm/project/ for full list 
+See [https://dicom.cfmm.uwo.ca/dm/project/](https://dicom.cfmm.uwo.ca/dm/project/) for full list 
 
 - uStruct-TLE: any 3T or 7T scan related to CIHR project in Epilepsy patients. Any spiral scans. Most uFA scans. 
 
@@ -47,10 +45,10 @@ See https://dicom.cfmm.uwo.ca/dm/project/ for full list
 
 # Resources for writing papers 
 
-https://doi.org/10.1371/journal.pcbi.1005619 
+[https://doi.org/10.1371/journal.pcbi.1005619](https://doi.org/10.1371/journal.pcbi.1005619) 
 
 # Resources for EDI 
 
-EDI in research: https://cihr-irsc.gc.ca/e/52543.html 
+EDI in research: [https://cihr-irsc.gc.ca/e/52543.html](https://cihr-irsc.gc.ca/e/52543.html) 
 
-Harvard implicit association test: https://implicit.harvard.edu/implicit/langchoice/canada.html 
+Harvard implicit association test: [https://implicit.harvard.edu/implicit/langchoice/canada.html](https://implicit.harvard.edu/implicit/langchoice/canada.html) 

@@ -1,12 +1,6 @@
 ## Adding pages or editing
 
-1. Clone https://github.com/baron-lab/wiki
-1. Make your changes 
-  - Add new pages to the docs directory
-1. 
-
-- they will automatically get added to the sidebar on the wiki website
-- after committing to main, the website will be automatically updated (can take up to 10 min)
+See index.md
 
 ## Building and previewing your site locally
 

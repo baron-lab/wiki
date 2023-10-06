@@ -11,10 +11,10 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
     - Main uses: image preprocessing and analysis (registration etc)
     - Many toolboxes already installed 
     - Access to Baron Lab datashare: use the command `mount /srv/baron` in a terminal every time you log in to get access to the data
-    - See https://osf.io/k89fh/wiki/Computational%20Core%20Server/ for
+    - See [https://osf.io/k89fh/wiki/Computational%20Core%20Server/](https://osf.io/k89fh/wiki/Computational%20Core%20Server/) for
         - setting up account. All lab members should start with a Basic account, and then if they need more resources contact C. Baron about a Power User account.
         - login instructions
-    - Troubleshooting forum: https://cbs-discourse.uwo.ca/  
+    - Troubleshooting forum: [https://cbs-discourse.uwo.ca/](https://cbs-discourse.uwo.ca/)  
         - Look here first if you're having issues. If you can't find a solution, post your own question! 
 
 1. baronsrv.uwo.ca (Windows)

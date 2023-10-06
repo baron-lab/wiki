@@ -20,15 +20,15 @@ nav_order: 3
     - email Igor (isolovey@robarts.ca) to get access to git.cfmm.robarts.ca with (UWO credentials)
     - add you to slack 
 
-- provide Dr. Baron with a picture and short statement about yourself so that he can add your profile to https://baronlab.ca (look at other profiles for examples)
+- provide Dr. Baron with a picture and short statement about yourself so that he can add your profile to [https://baronlab.ca](https://baronlab.ca) (look at other profiles for examples)
 
 - decide on a day for weekly one-on-one meetings with Dr. Baron. The purpose of this is to troubleshoot problems and to simply keep Dr. Baron informed of how things are going.
 
 - turn on notifications for #baronlab and #general channels on slack, and whatever else is related to your project.
 
-- If performing scanning for your project, get signed off on SOPs for access to CFMM MRI Facility (Appendix 3 at https://cfmm.uwo.ca/resources/sops.html).  
+- If performing scanning for your project, get signed off on SOPs for access to CFMM MRI Facility (Appendix 3 at [https://cfmm.uwo.ca/resources/sops.html](https://cfmm.uwo.ca/resources/sops.html)).  
 
-- install zoom for virtual meetings, which you have access to via UWO. See https://wts.uwo.ca/zoom/index.html 
+- install zoom for virtual meetings, which you have access to via UWO. See [https://wts.uwo.ca/zoom/index.html](https://wts.uwo.ca/zoom/index.html) 
 
 # Working hours and location expectations
 The Baron Lab supports a healthy work-life balance. 

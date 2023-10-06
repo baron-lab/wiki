@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
 # Welcome to the Baron Lab Wiki! 
@@ -12,7 +13,7 @@ To contribute, use the below instructions.
 ## Adding pages or editing
 
 - Small changes can be made directly editing files in gitlab. Otherwise:
-    1. Clone https://github.com/baron-lab/wiki
+    1. Clone [https://github.com/baron-lab/wiki](https://github.com/baron-lab/wiki)
     1. Make a new branch
     1. Make your changes 
         - Add new pages to the docs directory
@@ -33,7 +34,7 @@ To contribute, use the below instructions.
 
 - After committing to main, the website will be automatically updated (can take up to 10 min)
 
-- Use Markdown for formatting. See https://www.markdownguide.org/cheat-sheet/
+- Use Markdown for formatting. See [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)
 
 ## Building and previewing your site locally
 
@@ -48,5 +49,5 @@ Not required, but nice for seeing a preview before pushing to github. Assuming [
 ## Licensing and Attribution
 
 This repository is licensed under the [MIT License].
-This repository was generated using a template from https://github.com/just-the-docs/just-the-docs
+This repository was generated using a template from [https://github.com/just-the-docs/just-the-docs](https://github.com/just-the-docs/just-the-docs)
 
