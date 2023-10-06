@@ -4,6 +4,7 @@ title: ANTs Basic Usage
 parent: useful_tools
 ---
 # ANTs Basic Usage
+
 ANTs (Advanced Normalization Tools) is a software package that can be used to perform image registration with variable transformations (elastic, diffeomorphic, diffeomorphisms, unbiased) and similarity metrics (landmarks, cross-correlation, mutual information, etc). The source code can be found at: [https://github.com/ANTsX/ANTs](https://github.com/ANTsX/ANTs)
 
 ## Installation
