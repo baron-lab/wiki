@@ -1,7 +1,8 @@
 ---
 layout: default
 title: ANTs Basic Usage
-# parent: useful_tools
+parent: Useful Tools
+nav_order: 5
 ---
 # ANTs Basic Usage
 
