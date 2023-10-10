@@ -25,8 +25,6 @@ To update the changes type this command in terminal:
 
 ## Registering an Image
 
-
-
 > <pre>antsRegistration -d 3 \                                       #3D image
 > -r [anatomical.nii,meanb0.nii,1] \
 > -m MI[anatomical.nii,meanb0.nii,1,32] \                       #similarity metric: mutual information​ 

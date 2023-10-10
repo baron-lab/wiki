@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Servers
+nav_order: 4
 ---
 # Servers
 
