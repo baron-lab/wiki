@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ANTs Basic Usage
-parent: useful_tools
+# parent: useful_tools
 ---
 # ANTs Basic Usage
 
