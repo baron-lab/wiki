@@ -20,7 +20,7 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
     - Troubleshooting forum: [https://cbs-discourse.uwo.ca/](https://cbs-discourse.uwo.ca/)  
         - Look here first if you're having issues. If you can't find a solution, post your own question! 
 
-1. baronsrv.uwo.ca (Windows)
+2. baronsrv.uwo.ca (Windows)
     - Main uses: image recon with MATLAB
     - IMPORTANT: when ending a session do not choose "shutdown". Either log out, or just close the RDP window. 
     - access to Baron Lab data share: P drive
@@ -33,7 +33,7 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
         - 128 GB RAM 
         - Two of: NVIDIA GeForce RTX 4090 (24 GB each) 
 
-1. baron1.robarts.ca (Ubuntu)  
+3. baron1.robarts.ca (Ubuntu)  
     - Main uses: fsl eddy_cuda, which unfortunately is not on CBS server. Camino and mrtrix are also installed.
     - log in via ssh with UWO credentials 
     - Specs: 
