@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Brainsuite
+title: TractSeg
 parent: Useful Tools
 nav_order: 5
 ---
