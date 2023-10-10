@@ -27,22 +27,23 @@ To update the changes type this command in terminal:
 
 
 
-> antsRegistration -d 3 \                                       #3D image <br>
+> <pre>antsRegistration -d 3 \                                       #3D image
 > -r [anatomical.nii,meanb0.nii,1] \
-> -m MI[anatomical.nii,meanb0.nii,1,32] \                       #similarity metric: mutual information​ <br>
-> -t Affine[0.1] \                                              #Transform 1: Affine transform, step size = 0.1​ <br>
-> -c 10000x10000x10000x10000x10000 \                            #convergence factors <br>
-> -s 0.8x0.6x0.4x0.2x0mm \                                      #smoothing sigmas <br>
-> -f 5x4x3x2x1 \                                                #shrink factors <br>
+> -m MI[anatomical.nii,meanb0.nii,1,32] \                       #similarity metric: mutual information​ 
+> -t Affine[0.1] \                                              #Transform 1: Affine transform, step size = 0.1​ 
+> -c 10000x10000x10000x10000x10000 \                            #convergence factors 
+> -s 0.8x0.6x0.4x0.2x0mm \                                      #smoothing sigmas 
+> -f 5x4x3x2x1 \                                                #shrink factors 
 > -l 1 \
 > -r [anatomical.nii,meanb0.nii,1] \
 > -m MI[anatomical.nii,meanb0.nii,1,32] \
-> -t SyN[0.1] \                                                 #Transform 2: Symmetric diffeomorphic registration​ <br>
+> -t SyN[0.1] \                                                 #Transform 2: Symmetric diffeomorphic registration​ 
 > -c 50x35x15 \
 > -f 3x2x1 \
 > -s 0.4x0.2x0mm \
-> -n BSpline \                                                  #3rd order B-spline interpolation​ <br>
+> -n BSpline \                                                  #3rd order B-spline interpolation​ 
 > -u true \
 > -l 1 \
-> -o [transform,b0_warped.nii.gz,b0_inversewarped.nii.gz]       #output: "transform" produces 3 registration transform files:  transform0GenericAffine.mat, transform1Warp.nii.gz, transform1InverseWarp.nii.gz
-                                                                #the registered images are: b0_warped.nii.gz and b0_inversewarped.nii.gz (which is the anatomical registered to the b0)
+> -o [transform,b0_warped.nii.gz,b0_inversewarped.nii.gz]       #output: "transform" produces 3 registration transform files: transform0GenericAffine.mat, transform1Warp.nii.gz, transform1InverseWarp.nii.gz
+>
+> #the registered images are: b0_warped.nii.gz and b0_inversewarped.nii.gz (which is the anatomical registered to the b0) </pre>

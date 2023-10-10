@@ -6,4 +6,4 @@ nav_order: 5
 ---
 # Useful Tools
 
-[ANTs for image registration](ants_basic_usage.md)
+[ANTs](ants_basic_usage.html)
