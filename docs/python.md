@@ -19,8 +19,8 @@ nav_order: 7
 
 ## pybruker
 - used for reading bruker enhanced dicoms
-- see [gitlab.com/cfmm/bruker/pybruker](gitlab.com/cfmm/bruker/pybruker)
-- use the following (see [gitlab.com/cfmm/bruker/pybruker](gitlab.com/cfmm/bruker/pybruker) for more info)
+- see [gitlab.com/cfmm/bruker/pybruker](gitlab.com/cfmm/bruker/pybruker) for more info
+- use the following:
 > <pre>pip install pydicom
 > pip install git+https://gitlab.com/cfmm/bruker/pybruker </pre>
 - Pip may give a warning that the installed executables are not on the path. If so, add the path to ~/.bashrc using the below template (you will need to change the path to whatever pip tells you):
