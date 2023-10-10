@@ -16,12 +16,11 @@ The installation takes a while (could be a few hours).
 
 Post installation, the environment variables PATH and ANTSPATH have to be set. On linux, this can be done by adding the following lines to ~/.bash_profile:
 
-> export ANTSPATH=/opt/ANTs/bin/ 
->
-> export PATH=${​​​ANTSPATH}​​​​​​​​​​:$PATH
+> <pre>export ANTSPATH=/opt/ANTs/bin/ 
+> export PATH=${​​​ANTSPATH}​​​​​​​​​​:$PATH </pre>
 
 To update the changes type this command in terminal:
-> source ~/.bash_profile
+> <pre>source ~/.bash_profile </pre>
 
 ## Registering an Image
 
@@ -45,3 +44,27 @@ To update the changes type this command in terminal:
 > -o [transform,b0_warped.nii.gz,b0_inversewarped.nii.gz]       #output: "transform" produces 3 registration transform files: transform0GenericAffine.mat, transform1Warp.nii.gz, transform1InverseWarp.nii.gz
 >
 > #the registered images are: b0_warped.nii.gz and b0_inversewarped.nii.gz (which is the anatomical registered to the b0) </pre>
+
+- Smoothing sigmas (-s option) may be scaled according to the DWI resolution (for the code above the resolution was 0.2x0.2x0.5 mm).
+- The resolution of the output registered images will be the same as anatomical image.
+
+## Applying Registration Transforms
+
+This is an example to register DWI data (4D image) to the anatomical data by applying the registration transforms acquired with antsRegistration:
+
+> <pre>antsApplyTransforms -d 3 \
+> -e 3 \                                     #specifies input image type: the default is scalar (0); the options are 0/1/2/3/4 which corresponds to scalar/vector/tensor/time-series/multichannel
+> -i DWI.nii.gz \                            #input image
+> -r meanb0.nii \                            #reference image: the output image will have the same resolution as the reference
+> -o DWI_reg.nii.gz \                        #output image: registered DWI
+> -n BSpline \
+> -t [transform1Warp.nii.gz] \               #transforms to be applied
+> -t [transform0GenericAffine.mat,0] </pre>
+
+- ANTs applies transforms from the end to the beginning of the command line, so in this case, the Affine transform will be applied first
+- To deform the anatomical to the mean b0 space, the inverse warp nifti file is used and the affine transform command is changed to:
+    - -t [transform0GenericAffine.mat,1]
+- Identity Transform: If the -t option is omitted in antsApplyTransforms, the "identity transform" is applied, which can be useful if only the resolution is being changed to match the resolution of the "reference image."
+- Similarity metrics (such as MI, CC, etc.) of the registered image can be computed via the MeasureImageSimilarity command:
+
+> <pre>MeasureImageSimilarity -d 3 -m MI[anatomical.nii,DWI_reg.nii.gz,1,32] </pre>
