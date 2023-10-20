@@ -35,7 +35,8 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
 
 3. baron1.robarts.ca (Ubuntu)  
     - Main uses: fsl eddy_cuda, which unfortunately is not on CBS server. Camino and mrtrix are also installed.
-    - log in via ssh with UWO credentials 
+    - log in via ssh with UWO credentials
+    - Access to Baron Lab datashare: `/srv/bmisrv_baron`. If you don't see the data there, you may have to run `mount /srv/bmisrv_baron`.
     - Specs: 
         - Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz 
         - 128 GB RAM 
