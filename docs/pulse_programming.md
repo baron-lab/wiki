@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Python
+title: Pulse Programming
 nav_order: 9
 ---
 # Pulse Programming
