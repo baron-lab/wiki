@@ -20,6 +20,8 @@ nav_order: 3
     - email Igor (isolovey@robarts.ca) to get access to git.cfmm.robarts.ca with (UWO credentials)
     - add you to slack 
 
+- request a "standard user account" for the CBS computational server. See [Computational Server Wiki](https://osf.io/k89fh/wiki/Computational%20Core%20Server/?view_only=8281493cc75d429285735c98c1267261)
+
 - provide Dr. Baron with a picture and short statement about yourself so that he can add your profile to [https://baronlab.ca](https://baronlab.ca) (look at other profiles for examples)
 
 - decide on a day for weekly one-on-one meetings with Dr. Baron. The purpose of this is to troubleshoot problems and to simply keep Dr. Baron informed of how things are going.
