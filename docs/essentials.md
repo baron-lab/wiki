@@ -47,8 +47,4 @@ See [https://dicom.cfmm.uwo.ca/dm/project/](https://dicom.cfmm.uwo.ca/dm/project
 
 [https://doi.org/10.1371/journal.pcbi.1005619](https://doi.org/10.1371/journal.pcbi.1005619) 
 
-# Resources for EDI 
 
-EDI in research: [https://cihr-irsc.gc.ca/e/52543.html](https://cihr-irsc.gc.ca/e/52543.html) 
-
-Harvard implicit association test: [https://implicit.harvard.edu/implicit/langchoice/canada.html](https://implicit.harvard.edu/implicit/langchoice/canada.html) 

@@ -32,6 +32,9 @@ nav_order: 3
 
 - install zoom for virtual meetings, which you have access to via UWO. See [https://wts.uwo.ca/zoom/index.html](https://wts.uwo.ca/zoom/index.html) 
 
+# EDI
+- Read the EDI page in this wiki
+
 # Working hours and location expectations
 The Baron Lab supports a healthy work-life balance. 
 - Trainees are requested to be present on-site during the “core hours” of 10 am to 3 pm as much as they can manage because face-to-face time with their peers is essential for creating a positive work atmosphere, improving mental health, building professional relationships, mentorship, and forming collaborations. 
