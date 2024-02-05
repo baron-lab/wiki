@@ -29,8 +29,10 @@ Turn on notifications for #baronlab and #general
 # Servers and data management
 We do most data analysis by remotely logging into servers (see Servers page). All data should be saved onto C. Baron's datashare, which is backed up regularly. This datashare is mounted on all of our servers.
 
-# Reimbursements 
+# Mental Health
+Your mental health is important! You are encouraged to take the time off you are entitled to, which can sometimes help. Please let Dr. Baron know if you are encountering challenges, and you can work together to adjust projects or he can point you in the right direction for additional help and/or resources. Western provides health and wellness services at [https://www.uwo.ca/health//index.html](https://www.uwo.ca/health//index.html).
 
+# Reimbursements 
 Khan lab has a great wiki page for this (replace references to Dr. Khan with Dr. Baron!): [https://www.khanlab.ca/wiki/expense-claims](https://www.khanlab.ca/wiki/expense-claims) 
 
 # Projects for MRI Bookings 

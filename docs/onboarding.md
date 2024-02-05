@@ -41,5 +41,8 @@ The Baron Lab supports a healthy work-life balance.
     - If this is difficult for you, alternative arrangements are completely acceptable. Please discuss alternative arrangements with Dr. Baron. 
 - Dr. Baron does not require trainees to ask for permission to take time off for single or partial days off. For longer vacations please notify Dr. Baron. 
 
+# Authorship
+Authorship on publications requires a meaningful contribution to its intellectual content, and author order is in order of decreasing contribution with the supervisor(s) appearing last. Note that even a contribution that required little time may still represent meaningful contribution. People that provided support that was not an intellectual contribution can sometimes be acknowledged in the "Acknowledgements" section (e.g., somebody taught you how to use software that you ended up using for the analysis, but they did not participate in the analysis/interpretation of data for the paper in question). Sometimes authorship is not clear-cut; if in any doubt please do not hesitate to contact Dr. Baron. Co-first-author is appropriate for collaborative work where multiple people had similar net contribution to the research.
+
 # Feedback
 Feedback to Dr. Baron about any lab policies are extremely welcome and encouraged. Anonymous feedback to Dr. Baron is welcome through a typed note slid under his office door. 
