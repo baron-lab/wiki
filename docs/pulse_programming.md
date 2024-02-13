@@ -32,8 +32,8 @@ nav_order: 9
 - Open VMware -> "Open a virtual machine" -> select *.ova file downloaded above -> follow prompts
 - Open virtual machine. 
 - FIRST TIME setup
-    - set git config --global user.name "your name here" and git config --global user.email todo@uwo.ca
-    - Do ssh-keygen and follow instructions on gitlab to add a key
+    - Set `git config --global user.name "your name here"` and `git config --global user.email yourmail@uwo.ca`
+    - Do `ssh-keygen` and follow instructions on [gitlab](https://git.cfmm.uwo.ca/help/user/ssh) to add a key.
     - Create a shared folder, which makes it easy to transfer files between host PC and VM
         - Open "virtual machine settings" after VM has started
         - Selection Options tab -> select Shared Folders
@@ -62,7 +62,7 @@ nav_order: 9
             - change to "Bruker Topspin" window (bottom bar in the operating system)
 - Never suspend a virtual machine while Paravision is running
 ### Sequence location
-- Your sequence folder should be in /opt/PV6.0.1/prog/curdir/nmrsu/ParaVision/methods/src/
+- Your sequence folder should be in /opt/PV360.3.5/prog/curdir/nmrsu/ParaVision/methods/src/  (Folder name matches the PV version)
 ### Compiling your sequence
 - You should see your pulse sequence folder in Workspace Explorer tab -> Method Development -> User Methods
 - 2nd click, and choose Build/Install
