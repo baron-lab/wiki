@@ -6,8 +6,8 @@ nav_order: 9
 # Pulse Programming
 
 ## Preamble
-- This is just a summary to get you started. Lots of info is on the CFMM wiki.
-    - idea/midea project wiki has helpful information for pulse programming. Need to be added to idea group to access (not necessary unless you'll be modifying code)
+- This is just a summary to get you started. Lots of info is on the CFMM wiki (Ask Corey for link).
+- idea/midea project wiki has helpful information for pulse programming. Need to be added to idea group to access (not necessary unless you'll be modifying code).
 
 ## Virtual Box Installation (3T and 7T)
 - Pulse sequence programming will require virtualbox
@@ -25,7 +25,7 @@ nav_order: 9
 
 ## Bruker, Paravision360 (9.4T and 15T)
 ### Misc info
-- You'll need to be added to the idea project users to download the virtual machine (Ask Corey).
+- You'll need to be added to the idea/midea project users to download the virtual machine (Ask Corey).
 ### Getting Started
 - Install VMware (see above)
 - Go to https://idea.cfmm.uwo.ca -> login in with UWO -> click Downloads -> click bruker -> download latest version (*.ova file)
