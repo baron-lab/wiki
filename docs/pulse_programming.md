@@ -25,7 +25,7 @@ nav_order: 9
 
 ## Bruker, Paravision360 (9.4T and 15T)
 ### Misc info
-- See  https://git.cfmm.uwo.ca/bruker/documentation/-/wikis/ParaVision-360-Licenses for off-campus tips
+- You'll need to be added to the idea project users to download the virtual machine (Ask Corey).
 ### Getting Started
 - Install VMware (see above)
 - Go to https://idea.cfmm.uwo.ca -> login in with UWO -> click Downloads -> click bruker -> download latest version (*.ova file)
