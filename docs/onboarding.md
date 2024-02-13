@@ -33,7 +33,7 @@ nav_order: 3
 - install zoom for virtual meetings, which you have access to via UWO. See [https://wts.uwo.ca/zoom/index.html](https://wts.uwo.ca/zoom/index.html) 
 
 # EDI
-- Read the EDI page in this wiki
+- Read the [EDI page](edi.md) in this wiki
 
 # Working hours and location expectations
 The Baron Lab supports a healthy work-life balance. 
