@@ -6,8 +6,8 @@ nav_order: 9
 # Pulse Programming
 
 ## Preamble
-- This is just a summary to get you started. Lots of info is on the CFMM wiki.
-    - idea/midea project wiki has helpful information for pulse programming. Need to be added to idea group to access (not necessary unless you'll be modifying code)
+- This is just a summary to get you started. Lots of info is on the CFMM wiki (Ask Corey for link).
+- idea/midea project wiki has helpful information for pulse programming. Need to be added to idea group to access (not necessary unless you'll be modifying code).
 
 ## Virtual Box Installation (3T and 7T)
 - Pulse sequence programming will require virtualbox
@@ -25,15 +25,15 @@ nav_order: 9
 
 ## Bruker, Paravision360 (9.4T and 15T)
 ### Misc info
-- See  https://git.cfmm.uwo.ca/bruker/documentation/-/wikis/ParaVision-360-Licenses for off-campus tips
+- You'll need to be added to the idea/midea project users to download the virtual machine (Ask Corey).
 ### Getting Started
 - Install VMware (see above)
 - Go to https://idea.cfmm.uwo.ca -> login in with UWO -> click Downloads -> click bruker -> download latest version (*.ova file)
 - Open VMware -> "Open a virtual machine" -> select *.ova file downloaded above -> follow prompts
 - Open virtual machine. 
 - FIRST TIME setup
-    - set git config --global user.name "your name here" and git config --global user.email todo@uwo.ca
-    - Do ssh-keygen and follow instructions on gitlab to add a key
+    - Set `git config --global user.name "your name here"` and `git config --global user.email yourmail@uwo.ca`
+    - Do `ssh-keygen` and follow instructions on [gitlab](https://git.cfmm.uwo.ca/help/user/ssh) to add a key.
     - Create a shared folder, which makes it easy to transfer files between host PC and VM
         - Open "virtual machine settings" after VM has started
         - Selection Options tab -> select Shared Folders
@@ -62,7 +62,7 @@ nav_order: 9
             - change to "Bruker Topspin" window (bottom bar in the operating system)
 - Never suspend a virtual machine while Paravision is running
 ### Sequence location
-- Your sequence folder should be in /opt/PV6.0.1/prog/curdir/nmrsu/ParaVision/methods/src/
+- Your sequence folder should be in /opt/PV360.3.5/prog/curdir/nmrsu/ParaVision/methods/src/  (Folder name matches the PV version)
 ### Compiling your sequence
 - You should see your pulse sequence folder in Workspace Explorer tab -> Method Development -> User Methods
 - 2nd click, and choose Build/Install
