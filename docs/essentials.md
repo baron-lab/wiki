@@ -43,7 +43,7 @@ See [https://dicom.cfmm.uwo.ca/dm/project/](https://dicom.cfmm.uwo.ca/dm/project
 
 - uStruct-TLE-Histology: 9.4 T scanning related to CIHR project in Epilepsy patients. 
 
-- Diffusion: general development on human scanners 
+- Diffusion: general development on human scanners (should only need to be used rarely - when in doubt ask Corey)
 
 # Resources for writing papers 
 
