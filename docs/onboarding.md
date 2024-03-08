@@ -35,7 +35,7 @@ nav_order: 3
 # EDI
 - Read the [EDI page](https://baron-lab.github.io/wiki/docs/edi.html) in this wiki
 
-# Working hours and location expectations
+# Working hours and location 
 The Baron Lab supports a healthy work-life balance. 
 - Trainees are requested to be present on-site during the “core hours” of 10 am to 3 pm as much as they can manage because face-to-face time with their peers is essential for creating a positive work atmosphere, improving mental health, building professional relationships, mentorship, and forming collaborations. 
     - If this is difficult for you, alternative arrangements are completely acceptable. Please discuss alternative arrangements with Dr. Baron. 
@@ -44,5 +44,10 @@ The Baron Lab supports a healthy work-life balance.
 # Authorship
 Authorship on publications requires a meaningful contribution to its intellectual content, and author order is in order of decreasing contribution with the supervisor(s) appearing last. Note that even a contribution that required little time may still represent meaningful contribution. People that provided support that was not an intellectual contribution can sometimes be acknowledged in the "Acknowledgements" section (e.g., somebody taught you how to use software that you ended up using for the analysis, but they did not participate in the analysis/interpretation of data for the paper in question). Sometimes authorship is not clear-cut; if in any doubt please do not hesitate to contact Dr. Baron. Co-first-author is appropriate for collaborative work where multiple people had similar net contribution to the research.
 
+# Expectations 
+Trainees should expect Dr. Baron to treat them with kindness and respect and provide accommodations when needed. They should expect a turn-around time of no more than 1 week for reviewing manuscripts/presentations (usually ~48 hr). They should expect Dr. Baron to foster a positive and supportive lab environment.
+
+Dr. Baron expects trainees to treat him and other members of the lab with kindness and respect. He expects trainees to work with self-motivation, read literature related to their project, provide him with enough advance notice to review/edit their work or provide reference letters before deadlines, and to come to him when they need help. Trainees are expected to help each other when possible and contribute to a positive lab environment.
+
 # Feedback
-Feedback to Dr. Baron about any lab policies are extremely welcome and encouraged. Anonymous feedback to Dr. Baron is welcome through a typed note slid under his office door. 
+Feedback to Dr. Baron about any lab policy is extremely welcome and encouraged. Anonymous feedback to Dr. Baron is welcome through a typed note slid under his office door. 
