@@ -14,6 +14,8 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
     - Main uses: image preprocessing and analysis (registration etc)
     - Many toolboxes already installed 
     - Baron Lab datashare is mounted at: `/cifs/baron`
+      - Other project shares:
+        - `/cifs/baron_projects/hyades_mri`
     - See [https://osf.io/k89fh/wiki/Computational%20Core%20Server/](https://osf.io/k89fh/wiki/Computational%20Core%20Server/) for
         - setting up account. All lab members should start with a Basic account, and then if they need more resources contact C. Baron about a Power User account.
         - login instructions
