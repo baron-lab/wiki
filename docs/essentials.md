@@ -21,6 +21,9 @@ Thursdays at 12:00pm. In person in 2nd floor Director's Conference Room.
 # Website 
 [https://www.baronlab.ca/](https://www.baronlab.ca/)
 
+# Printing
+The printer located beside the trainee seating area is at ditto.imaging.robarts.ca
+
 # Slack
 Ask C. Baron to be added to Superlab slack if not yet a member
 
