@@ -40,6 +40,7 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
     - log in with UWO credentials via:
       - ssh
       - remote desktop connection (from Windows) or Remina (from Linux)
+        - IMPORTANT: when connecting with remote desktop connection, go to "Experience" tab and choose "LAN (10Mbps or higher)" connection speed to drastically improve performance
     - Access to Baron Lab datashare: `/cifs/baron`
     - Specs: 
         - Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz 
