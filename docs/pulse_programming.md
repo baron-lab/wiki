@@ -183,9 +183,19 @@ nav_order: 9
         - will have to use "unregtarg" and "regtarg" commands in IDEA.Net so that the build uses the new name
 - Make all changes in a separate branch. Only push to master when it's been successfully tested.
 ### Compiling a sequence for transferring to scanner
+- First time setup
+  - create a new NAT network in virtual box using File > Tools > Network Manager
+    - Name it "Siemens" 
+    - Make sure this NAT Network is assigned bo both virtual machines
+    - open mars VM, login with root (no PW), and type "ip addr" to get the ip address of enmain. e.g., 10.0.2.4
+    - open windows VM, open MIDEA, and run "externalmars -ip 10.0.2.4", where the same ip as you observe in the previous step is used
+      - if there are still issues connecting to mars VM, see [https://git.cfmm.robarts.ca/idea/MIDEA/-/wikis/mars](https://git.cfmm.robarts.ca/idea/MIDEA/-/wikis/mars) for more tips
+    - try compiling with "ms 4". You'll likely get a "key is expired message". If so:
+      - in windows VM, in MIDEA, run "marspasswd". Enter a new pw of your choice.
+      - see [https://git.cfmm.uwo.ca/idea/MIDEA/-/wikis/tips#expired-passwords](https://git.cfmm.uwo.ca/idea/MIDEA/-/wikis/tips#expired-passwords) for more info.
 - make sure mars VM is turned on
-- ms 7
-- network connection issues can happen. See idea > MIDEA > Wiki > Compiling SO (shared object) library using mars VM
+- ms 4 to compile DLL only. ms 7 to compile everything.
+- when done, use "sudo poweroff" to shutdown mars VM
 ### Transferring sequence to scanner
 - You need the TARGET.dll and TARGET.so files
 - can grab the files from C:\Users\cfmm\AppData\Local\Temp, since everything always gets copied there on successful build.
