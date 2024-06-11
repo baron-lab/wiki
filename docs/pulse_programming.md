@@ -194,7 +194,7 @@ nav_order: 9
       - in windows VM, in MIDEA, run "marspasswd". Enter a new pw of your choice.
       - see [https://git.cfmm.uwo.ca/idea/MIDEA/-/wikis/tips#expired-passwords](https://git.cfmm.uwo.ca/idea/MIDEA/-/wikis/tips#expired-passwords) for more info.
 - make sure mars VM is turned on
-- ms 4 to compile DLL only. ms 7 to compile everything.
+- ms 4 to compile .so file only. ms 7 to compile everything.
 - when done, use "sudo poweroff" to shutdown mars VM
 ### Transferring sequence to scanner
 - You need the TARGET.dll and TARGET.so files
