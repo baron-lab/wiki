@@ -55,4 +55,6 @@ These are the groups Robarts IT has set up for the lab, which determines permiss
     - RRI-U-Baron is a member of *-Data & *-LinuxSys so they get access to those areas by default also. 
 - RRI-UD-Baron-Data: have access to Baron lab datashare and Windows servers 
 - RRI-U-Baron-SysAdmin: Data administrator and linux admin (just C Baron currently) 
-- RRI-U-Baron-LinuxSys: Anyone needing access to linux machines (e.g., baron1.robarts.ca) 
+- RRI-U-Baron-LinuxSys: Anyone needing access to linux machines (e.g., baron1.robarts.ca)
+- RRI-U-Baron-srv-users: access to baronsrv.robarts.ca
+- RRI-U-Baron-srv-admins: admins for baronsrv.robarts.ca
