@@ -55,7 +55,7 @@ can be reached at skope-cfmm.robarts.ca (129.100.44.178)
 
 To correct for B0 eddy currents, the scanner applies frequency shifts that are invisible to the Skope system. Currently, the only method to correct for this is to simulate the execution of the pulse sequence. The steps to do so are:
 1. Make sure you have the VE12U virtual machine for the 7T or VE11C virtual machine for the 3T. See [https://git.cfmm.uwo.ca/cfmm/info/-/wikis/siemens_idea](https://git.cfmm.uwo.ca/cfmm/info/-/wikis/siemens_idea)
-2. Generate a .pro file from your specific acquisition. This can be obtained from the raw .dat file or a dicom using matlab functions in the baronAnalysis repo [https://git.cfmm.uwo.ca/baron-lab/baronAnalysis](https://git.cfmm.uwo.ca/baron-lab/baronAnalysis):
+2. Generate a .pro file from your specific acquisition. This can be obtained from the raw .dat file using matlab functions in the baron-matlab-recon repo [https://git.cfmm.robarts.ca/baron-lab/baron-matlab-recon](https://git.cfmm.robarts.ca/baron-lab/baron-matlab-recon):
     - Raw: siemensRaw2Protocol.m
     - Dicom: dicom2protocol.m
 3. Start the VE12U or VE11C virtual machines if scan was performed on the 7T or 3T respectively, and:
