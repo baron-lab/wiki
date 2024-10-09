@@ -11,6 +11,7 @@ Members of the lab are expected to read this guide: [https://www.sshrc-crsh.gc
 
 The Harvard implicit association test can be rather eye-opening. Members of the lab are strongly encouraged, but are not required, to take the test: [https://implicit.harvard.edu/implicit/langchoice/canada.html](https://implicit.harvard.edu/implicit/langchoice/canada.html) 
 
+Please perform EDI training modules as they become available: [https://www.edi.uwo.ca/trainings-and-certificates/online-modules/](https://www.edi.uwo.ca/trainings-and-certificates/online-modules/)
 
 ## SGBA
 Sex and gender differences are often overlooked in research. This oversight limits the generalizability of research findings and their applicability to clinical practice, in particular for women but also for men. 
