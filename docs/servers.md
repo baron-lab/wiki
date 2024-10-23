@@ -49,13 +49,13 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
 
 
 4. rri-baron10.robarts.uwo.ca (Ubuntu 24.04 LTS)  
-    - Main uses: Other option for fsl eddy_cuda. More neurimaging software available with [modules](modules.md).
+    - Main uses: Another server option for eddy_cuda. Neuroimaging software available with [modules](modules.md).
     - Same log in instructions as baron1.
     - Access to Baron Lab datashare: `/cifs/baron`
     - Specs: 
-        - Intel 
+        - Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
         - 32 GB RAM 
-        - NVIDIA GeForce GTX 
+        - NVIDIA GeForce RTX 2080 Ti (12 GB)
 
 ## Baron lab groups 
 
