@@ -12,7 +12,7 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
 1. CBS Server (Ubuntu)
 
     - Main uses: image preprocessing and analysis (registration etc)
-    - Many toolboxes already installed 
+    - Many toolboxes already installed. Check the full list using [modules](modules.md)
     - Baron Lab datashare is mounted at: `/cifs/baron`
       - Other project shares:
         - `/cifs/baron_projects/hyades_mri`
@@ -35,8 +35,8 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
         - 128 GB RAM 
         - Two of: NVIDIA GeForce RTX 4090 (24 GB each) 
 
-3. baron1.robarts.ca (Ubuntu)  
-    - Main uses: fsl eddy_cuda, which unfortunately is not on CBS server. Camino and mrtrix are also installed.
+3. baron1.robarts.ca (Ubuntu 18.04 LTS)  
+    - Main uses: fsl eddy_cuda, which unfortunately is not on CBS server. Many neurimaging software available with [modules](modules.md).
     - log in with UWO credentials via:
       - ssh
       - remote desktop connection (from Windows) or Remina (from Linux)
@@ -46,6 +46,16 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
         - Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz 
         - 128 GB RAM 
         - Two of: NVIDIA GeForce GTX 1080 Ti (12 GB each) 
+
+
+4. rri-baron10.robarts.uwo.ca (Ubuntu 24.04 LTS)  
+    - Main uses: Another server option for eddy_cuda. Neuroimaging software available with [modules](modules.md).
+    - Same log in instructions as baron1.
+    - Access to Baron Lab datashare: `/cifs/baron`
+    - Specs: 
+        - Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+        - 32 GB RAM 
+        - NVIDIA GeForce RTX 2080 Ti (12 GB)
 
 ## Baron lab groups 
 
