@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Pulse Programming Old
+title: Archived info
 parent: Pulse Programming
 nav_order: 10
 ---
-# Pulse Programming
+# Pulse Programming (OLD)
 
 ## Preamble
 - This is just a summary to get you started. Lots of info is on the CFMM wiki (Ask Corey for link).

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pulse Sequence Info
+parent: Pulse Programming
 nav_order: 8
 ---
 # Pulse Sequence Info

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Pulse Programming Old
+title: Siemens Programming XA60
 parent: Pulse Programming
 nav_order: 9
 ---
