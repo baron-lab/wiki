@@ -9,7 +9,13 @@ nav_order: 6
 FSL is a comprehensive library of analysis tools for FMRI, MRI and diffusion brain imaging data.
 
 ## Usage on baron1 server
+There are two ways to use FSL in baron1: Modules or a container.
 
+## Modules
+
+Refer to the [modules](https://baron-lab.github.io/wiki/docs/modules.html) page to learn more.
+
+## FSL container
 We use a singularity container for FSL because it has very picky installation requirements. To use it, add the following to ~/.bash_aliases (if the file does not exist, create it):
 
 > <pre>alias eddy_cuda="singularity exec --nv /opt/containers/singularity-fsl_6.0.4.sif eddy_cuda9.1"
@@ -40,3 +46,7 @@ You will also need to update your .bashrc file so that it adds singularity to yo
 > <pre># Singularity
 > export PATH=/opt/singularity/bin:${​​​​​​PATH}​​​​​​
 > . /opt/singularity/etc/bash_completion.d/singularity </pre>
+
+or
+
+> module load singularity
