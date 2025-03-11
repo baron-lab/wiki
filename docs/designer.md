@@ -27,7 +27,7 @@ In baron10 singularity module is apptainer:
 
 The designer container needs binding the folder with the data in the host machine with a mounting point inside the container runs the pipeline. Fot rhis use --bind host_path:container_path to mount your folder (host_path) to a specified path inside the container (container_path). To see thsi in action, check the examples below.
 
-### A typical run example
+### Basic example
 This example mounts the host_path (/path/to/folder/with/dataset) to the container_path (/mnt). The host_path contains the input series dwi.nii with its bvec (dwi.bvec), bval (dwi.bvec), and json (dwi.json containing PF factor, PE dir, and TE) along with reverse phase-encoding b=0 image (rpe_b0.nii). Its runs the designer contained in baron/containers/designer.sif (usually in cifs). The following is an example that calls designer and will process the data using the recommended designer pipeline:
 
 ``` bash
@@ -68,12 +68,20 @@ This example is based in the singularity example in the DESIGNER2 documentation 
 
 ### Advanced example
 
+The next example runs DESIGNER in a dataset with LTE and STE acquisitions. Note that DESIGNER requires separated volumes for this (lte.nii and ste.nii here) and the bshapes option. The new -eddy_group option that make eddy run separately in both volumes.
+
+For this example we also provide the echo times and the partial fourier treshold as explicit parameters instead of letting DESIGNER to read them from the json files. 
+
+Additionally, this example shows how to output diles to a different location in case you required the outputs in other folder.
+
 ```bash
 input_folder=/path/to/folder/with/dataset
-output_folder=/path/to/folder/output/dataset
+output_folder=/path/to/folder/with/output
 designer2_sif=baron/containers/designer.sif
 dwi1=lte.nii
 dwi2=ste.nii
+bshape1=1
+bshape2=0
 rpe_pair=b0_rpe.nii
 pe_dir=AP
 echo_times=90
@@ -86,7 +94,7 @@ designer \
 -pre_align -ants_motion_correction \
 -eddy -rpe_pair /input/$rpe_pair -rpe_te $echo_times -pe_dir $pe_dir \
 -echo_time $echo_times,$echo_times \
--bshape 1,0 \
+-bshape $bshape1,$bshape2 \
 -eddy_groups 1,2 \
 -mask \
 -scratch /output/designer_scratch -nocleanup \
