@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Getting your MRI data
-nav_order: 6
+nav_order: 7
 ---
 
 # Getting your MRI data
