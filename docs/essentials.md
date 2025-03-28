@@ -7,13 +7,9 @@ nav_order: 2
 # New trainees
 Look at the Onboarding wiki page
 
-# Group Calendar/Emails
-Add yourself to baron-lab group in Outlook when signed in to UWO account.
-
 # Group Meetings 
 
-Thursdays at 12:00pm. In person in 2nd floor Director's Conference Room. 
-- no meetings in weeks with Superlab meeting
+Weekly in Faraday Cage Conference Room. Ask CB to add you to the calendar invite if you're not on it.
 - will have round-table updates ~ once per month
 - will go to grad club ~ once per month
 - cancellations will be communicated through slack 
