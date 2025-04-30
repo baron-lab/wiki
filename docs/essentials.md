@@ -18,7 +18,9 @@ Weekly in Faraday Cage Conference Room. Ask CB to add you to the calendar invite
 [https://www.baronlab.ca/](https://www.baronlab.ca/)
 
 # Printing
-The printer located beside the trainee seating area is at ditto.imaging.robarts.ca
+The printer located beside the trainee seating area is at ditto.imaging.robarts.ca. Installation:
+- download drivers for model "e-STUDIO4505AC"
+- you may have to let the installer access the network so that it can find the printer
 
 # Slack
 Ask C. Baron to be added to Superlab slack if not yet a member
