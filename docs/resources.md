@@ -18,4 +18,4 @@ nav_order: 6
   - It is not expensive (see link above), and buying a personal copy is not a bad idea.
 - [Basics of MRI physics at accessible level](https://www.mriquestions.com/index.html)
 - [Diffusion MRI free online textbook](https://academic.oup.com/book/24921)
-- [Diffusion MRI online Module, C Baron](https://uwoca-my.sharepoint.com/:f:/g/personal/cbaron4_uwo_ca/EmIhhhRTD5BAjc4dWk9X5wIB8Prb8o-E5_9EURE3XsLzfw)
+- [Diffusion MRI online Module, C Baron](https://uwoca-my.sharepoint.com/:f:/g/personal/cbaron4_uwo_ca/EjlDmLYA78tBmPmDHc8VF5YBA36egbXvNj3m1jX_XTDTsQ?e=CJocCw)
