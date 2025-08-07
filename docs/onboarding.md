@@ -49,5 +49,7 @@ Trainees should expect Dr. Baron to treat them with kindness and respect and pro
 
 Dr. Baron expects trainees to treat him and other members of the lab with kindness and respect. He expects trainees to work with self-motivation, read literature related to their project, provide him with enough advance notice to review/edit their work or provide reference letters before deadlines, and to come to him when they need help. Trainees are expected to help each other when possible and contribute to a positive lab environment.
 
+Reading journal articles is an essential part of graduate studies. Trainees should set up paper alerts relevant to their project, and be reading at least 1 to 2 papers per week.  
+
 # Feedback
 Feedback to Dr. Baron about any lab policy is extremely welcome and encouraged. Anonymous feedback to Dr. Baron is welcome through a typed note slid under his office door. 
