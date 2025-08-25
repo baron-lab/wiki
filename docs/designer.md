@@ -11,22 +11,12 @@ DESIGNER is a pre-processing pipeline for dMRI maintained by the NYU diffusion b
 
 ## Using designer in baron servers
 
-We have singularity containers to run DESIGNER v2 in '/cifs/baron/containers'
-
-First, ensure you have singularity on your PATH loading singularity module.
-
-For baron1: 
-
-> module load singularity
-> 
-For baron10 (singularity module is apptainer):
-
-> module load apptainer
+We have singularity/apptainer containers to run DESIGNER v2 in '/cifs/baron/containers'
 
 The designer container needs to bind the folder with the data in the host machine to a directory where the container runs the pipeline. Fot this use --bind host_path:container_path to mount your folder (host_path) to a specified path in the container (container_path). Check the next section for examples
 
 ### Basic example
-This example binds the host_path (/path/to/folder/with/dataset) to the container_path (/mnt). The host_path contains the input series dwi.nii with its bvec (dwi.bvec), bval (dwi.bvec), and json (dwi.json containing PF factor, PE dir, and TE) along with reverse phase-encoding b=0 image (rpe_b0.nii). The designer container is in baron/containers/designer.sif (usually in cifs). The following is an example calls designer and will process the data using the recommended designer pipeline:
+This example binds the host_path (/path/to/folder/with/dataset) to the container_path (/mnt). The host_path contains the input series dwi.nii with its bvec (dwi.bvec), bval (dwi.bvec), and json (dwi.json containing PF factor, PE dir, and TE) along with reverse phase-encoding b=0 image (rpe_b0.nii). The designer containers are in baron/containers (usually in cifs). The following example calls designer and will process the data using the recommended designer pipeline:
 
 ``` bash
 # creating auxiliary variables
@@ -47,16 +37,15 @@ $designer2_sif designer \
 $dwi $dwi_out
 ```
 
-
-quick explanation of the used options:
-- -- nv (singularity option): Indicate singularity to access the GPU so designer can run eddy_cuda
-- --bind (singularity option): Mounts host folder inside the designer container
-- -denoise: Perform MP-PCA denoising
-- -rician: Rician correction (for magnitude denoising)
+Quick explanation of the used options:
+- -- nv (singularity option): Indicate singularity to access the GPU so designer can run eddy_cuda.
+- --bind (singularity option): Mounts host folder inside the designer container.
+- -denoise: Perform MP-PCA denoising.
+- -rician: Rician correction (for magnitude denoising).
 - -degibbs: Do degibbs. Note designer can perfomr Partial fourier degibbs.
 - -eddy: Note: Designer internally uses mrtrix eddy wraper and can uses its inputs. Check documentation.
-- -rpe_pair: Indicates path of the PA for eddy
-- -normalize: Normalize outputs (Depeing on the application usually not neccesary)
+- -rpe_pair: Indicates path of the PA for eddy.
+- -normalize: Normalize outputs (Depeing on the application usually not neccesary).
 - -mask: Saves the outputs maks afte eddy.
 - -scratch: Scratch folder for intermediary steps
 - -nocleanup: Don't erase scratch files after preprocessing.
@@ -67,11 +56,11 @@ This example is based in the singularity example in the DESIGNER2 documentation 
 
 ### Advanced example
 
-The next example runs DESIGNER in a dataset with LTE and STE acquisitions. Note that DESIGNER requires separated volumes (lte.nii and ste.nii here) and the bshapes option. The new -eddy_group will run eddy separately for each batch of volumes.
+The next example runs DESIGNER in a dataset with LTE and STE acquisitions. Note that DESIGNER requires separated volumes for this (lte.nii and ste.nii here) and the bshapes option. The new -eddy_group option that make eddy run separately in both volumes.
 
 For this example we also provide the echo times and the partial fourier treshold as explicit parameters instead of letting DESIGNER to read them from the json files. 
 
-Additionally, this example shows how to output files to a different location in case you required the outputs in other folder.
+Additionally, this example shows how to output diles to a different location in case you required the outputs in other folder.
 
 ```bash
 input_folder=/path/to/folder/with/dataset
