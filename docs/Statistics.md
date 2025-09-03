@@ -65,7 +65,7 @@ model_3way <- aov(data ~ Group * Genotype * Time, data = df)
 
 # Separate data from both genotypes to look for effects of group and time 
 model_Gtype1 <- aov(data ~ Group * Time, data = filter(df, Genotype == 'Gtype1'))
-model_Gtype2 <- aov(data ~ Group * Time, data = filter(df, Genotype == 'Gtype2’))
+model_Gtype2 <- aov(data ~ Group * Time, data = filter(df, Genotype == 'Gtype2'))
 		
 # Post-hoc: Group differences at each Timepoint in each genotype
 Gtype1_emm <- emmeans(model_Gtype1, ~ Group | Time)
