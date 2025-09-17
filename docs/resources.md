@@ -20,6 +20,16 @@ nav_order: 6
 - [Diffusion MRI free online textbook](https://academic.oup.com/book/24921)
 - [Diffusion MRI online Module, C Baron](https://uwoca-my.sharepoint.com/:f:/g/personal/cbaron4_uwo_ca/EjlDmLYA78tBmPmDHc8VF5YBA36egbXvNj3m1jX_XTDTsQ?e=CJocCw)
 
+# Image Segmentation and Registration
+- The following links introduce the concepts of image segmentation and image registration in general and in the context of MRI for students who may be new to these methods:
+- Image Segmentation:
+  - [Image Segmentation (MathWorks):](https://www.mathworks.com/discovery/image-segmentation.html) A broad, beginner-friendly explanation of image segmentation
+  - [Image Segmentation in Medical Imaging:](https://www.statcan.gc.ca/en/data-science/network/image-segmentation) A technical explanation of image segmentation with underlying math for univariate and multivariate segmentation models
+  - [Image Segmentation with SynthSeg+:](https://www.pnas.org/doi/10.1073/pnas.2216399120) A paper written on the topic of SynthSeg+, a tool used for brain MRI segmentation with examples of its uses.
+- Image Registration:
+  - [Image Registration (MathWorks):](https://www.mathworks.com/help/images/image-registration.html) A short explanation on image registration which also covers MATLAB functions and examples (This is more useful for practical implementation)
+  - [Image Registration:](https://3dqlab.stanford.edu/image-registration/) A pipeline/step-by-step overview of a 'typical' image registration process
+    
 # Tips for thesis exam
 - Some things everyone doing diffusion MRI research should know:
   - how things change with magnetic field strength
