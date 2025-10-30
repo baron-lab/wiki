@@ -1,31 +1,38 @@
 ---
 layout: default
 title: Getting your MRI data
-nav_order: 7
+parent: Data Analysis
+nav_order: 6
 ---
 
 # Getting your MRI data
 
-## Manual download of Dicoms
+## Automated approaches from Khan lab (recommended)
+1. Easiest to do from CBS server (see Servers page), because everything is pre-installed
+    - containers for cfmm2tar and tar2bids are located in /srv/containers
+2. Use the Khan lab cfmm2tar tool to download the dicoms from the server
+    - Best practice: save the call you're using in a clearly named file in your project directory (e.g., "run_cfmm2tar.sh")
+    - test with a single date (-d flag) before pulling a whole study
+    - use `apptainer run /srv/containers/cfmm2tar_<version>.sif -h` to get help text, where `version` is the version number 
+      - you can check the versions that are available by looking in the /srv/containers directory
+    - Example call: `apptainer run --bind /cifs/baron/studyData/morrow_ADD/dataTar:/dataTar /srv/containers/cfmm2tar_v1.0.0.sif -p 'Morrow^ADD-MRI' /dataTar`
+3. Use the Khan lab "tar2bids" tool to convert the dicoms to NIFTI, organized in the BIDS format
+    - Best practice: save the call you're using in a clearly named file in your project directory (e.g., "run_tar2bids.sh")
+    - call with the no flags for help information. e.g. `apptainer run /srv/containers/tar2bids_v0.3.0.sif`
+    - the rules for naming of files based on the metadata from the scanner can be supplied via a "heuristic" file supplied via the `-h` option
+      - the default one created by the Khan lab will work for most standard scans
+        - our advanced diffusion scans will just be given generic dwi names that do not reflect things like b-tensor encoding or ogse
+      - if you supply a file, it replaces the default, so you'll have to redefine the rules for rest of the scans too
+        - the heuristic is saved in the "code" directory that is outputted, so you can run tar2bids with the default heuristic in a sample subject, then modify the heuristic file it creates
+          - the metadata is saved in a "dicominfo.tsv" file in the same folder, which you can use to create your own rules
+
+
+## Manual download of Dicoms 
 Go to [https://dicom.cfmm.uwo.ca/dm/](https://dicom.cfmm.uwo.ca/dm/) and follow the directions.
-
-
-## Automatic shell script to download Dicoms
-NOTE: Needs to be updated- use manual download for now. 
-1. Login into server (e.g., baron1) if data will live there
-2. Download fetchData.sh and cfmm_baron.py from Lab-Info repo, and put in same directory (e.g., ~/bin) somewhere in your home directory
-3. cd ~/bin
-4. Run fetchData.sh script, with 3 input arguments: Date (YYYMMDD), Study folder name, Description
-- e.g. 
-> <pre>./fetchData.sh 20180509 OGSE_testing 'first tests of ep2d_baron to confirm diff waveforms and develop pipelines'</pre>
-
-The above will download the dicoms to baron1.robarts.ca:/mnt/baron1_local1/data/OGSE_testing and convert them to NIFTI organized in the BIDS format.
-
-1. It is STRONGLY ENCOURAGED to add a list of scans with descriptions to the description .txt file that will be created automatically
-2. To just view the NIFTI's, you can mount the data directory on your local system (see above Servers section)
-3. For computationally intensive operations, ssh to baron1 to perform them.
+  - you'll need to convert to NIFTI for most tools. You can use "dcm2niix" from the command line to do so. 
+    - check help with `dcm2niix -h`
 
 ## Raw Data
 1. Tech will transfer data to the lab's CBS server allocation. This is mounted on baron1 at /srv/bmisrv_baron
-2. The data will be in the folder "cfmm_data" on our CBS data share, which is at /srv/bmisrv_baron/cfmm_data on baron1
+2. The data will be in the folder "cfmm_data" on our CBS data share, which is at /cifs/bmisrv_baron/cfmm_data on most systems
 3. Move the data from cfmm_data to the appropriate long term storage location (likely a trainee specific folder or studyDataRaw)

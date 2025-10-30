@@ -47,4 +47,6 @@ nav_order: 6
 - have general knowledge about the condition you may be studying
   - e.g., how is it diagnosed, subtypes, prevalence, treatments, typical outcomes
 - know the background and details behind anything you put in your thesis text
+- be ready for statistics questions. 
+  - Did you do the appropriate tests? Type 1 error? Multiple comparisons?
 - know the literature! If you've been reading papers throughout your program, this should not be too difficult. But if you haven't been reading throughout, it is very hard to catch up while prepping for your exam.
