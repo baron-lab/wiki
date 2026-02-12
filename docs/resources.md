@@ -32,21 +32,21 @@ nav_order: 6
     
 # Tips for thesis exam
 - Some things everyone doing diffusion MRI research should know:
-  - how things change with magnetic field strength
+  - How things change with magnetic field strength
     - e.g., SNR, main field homogeneity and off-resonance, B1 field inhomogeneity (and impact of this on parallel imaging), relaxation times
-  - typical values
+  - Typical Values:
     - e.g., relaxation times in various tissues, ADC values in various tissues, typical experimental diffusion times, and how that relates to diffusion-based mean-squared displacement, max gradient for hardware (and why they typically are lower than hardware max during frequency-encoding), max slew rates (and why they typically need to be limited to below hardware max)
-  - units for the parameters you work with
-  - how noise propagates in parameter estimation
-- you must know the "why" and trade-offs for all parameter choices
-  - review all your experimental methods to refresh your memory
-  - be honest about limitations and/or shortcomings
-- think about how your work could potentially be clinically translated, including barriers to it
-  - don't forget that, aside from clinical translation, usage in basic science investigations to learn more about the brain is also valuable
-- expect high level questions like "where do you think this field is going"
-- have general knowledge about the condition you may be studying
+  - Units for the parameters you work with
+  - How noise propagates in parameter estimation
+- You must know the "why" and trade-offs for all parameter choices
+  - Review all your experimental methods to refresh your memory
+  - Be honest about limitations and/or shortcomings
+- Think about how your work could potentially be clinically translated, including barriers to it
+  - Don't forget that, aside from clinical translation, usage in basic science investigations to learn more about the brain is also valuable
+- Expect high level questions like "where do you think this field is going"
+- Have general knowledge about the condition you may be studying
   - e.g., how is it diagnosed, subtypes, prevalence, treatments, typical outcomes
-- know the background and details behind anything you put in your thesis text
-- be ready for statistics questions. 
+- Know the background and details behind anything you put in your thesis text
+- Be ready for statistics questions. 
   - Did you do the appropriate tests? Type 1 error? Multiple comparisons?
-- know the literature! If you've been reading papers throughout your program, this should not be too difficult. But if you haven't been reading throughout, it is very hard to catch up while prepping for your exam.
+- Know the literature! If you've been reading papers throughout your program, this should not be too difficult. But if you haven't been reading throughout, it is very hard to catch up while prepping for your exam.
