@@ -15,7 +15,7 @@ Types:
 
 t tests assume the data is (1) independent, (2) normally distributed, and (3) have homogeneity of variance (similar amount of variance in each group). If data does not meet these assumptions, can use a non-parametric test such as the Wilcoxon Signed-Rank test. 
 
-t tests can be performed in Matlab, R, excel, GraphPad Prism, and various others using premade functions.
+t tests can be performed in Matlab, R, excel, GraphPad Prism, and various others using premade functions
 
 
 ## More than two groups
