@@ -15,7 +15,7 @@ Save all data you do not want to lose to Baron Lab datashare, which is mounted o
     - Baron Lab datashare is mounted at: `/cifs/baron`
       - Other project shares:
         - `/cifs/baron_projects/hyades_mri`
-    - See [https://hackmd.io/@CompCore/BJ0JLCnzxg](https://hackmd.io/@CompCore/BJ0JLCnzxg) for:
+    - See [https://hackmd.io/@CompCore/cbs_servers](https://hackmd.io/@CompCore/cbs_servers) for:
         - setting up account. All lab members should start with a Basic account, and then if they need more resources contact C. Baron about a Power User account.
         - Login and general log-in instructions
     - Troubleshooting forum: [https://cbs-discourse.uwo.ca/](https://cbs-discourse.uwo.ca/)  
