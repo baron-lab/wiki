@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Windows Subsystem for Linux
-parent: Useful Tools
+parent: Application Tips
 nav_order: 6
 ---
 # Windows Subsystem for Linux 

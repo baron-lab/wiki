@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ANTs
-parent: Useful Tools
+parent: Application Tips
 nav_order: 6
 ---
 # ANTs

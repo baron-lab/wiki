@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Useful Tools
+title: Application Tips
 has_children: true
 nav_order: 6
 ---
-# Useful Tools
+# Application Tips

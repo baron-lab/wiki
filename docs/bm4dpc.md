@@ -1,7 +1,7 @@
 ---
 layout: default
 title: BM4D-PC
-parent: Useful Tools
+parent: Application Tips
 nav_order: 6
 ---
 # BM4D-PC
